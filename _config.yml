@@ -1,3 +1,5 @@
+author_image: "assets/images/bettio.jpg"
+
 remote_theme: bettio/mediator
 plugins:
 - jekyll-remote-theme
