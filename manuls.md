@@ -1,5 +1,7 @@
 ---
 title: Pallas Cats / Manuls
+image:
+  path: /manuls/manul-cover.jpg
 ---
 
 ![Manul](manuls/manul0.jpg)
