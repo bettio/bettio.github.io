@@ -1,4 +1,6 @@
-# Hey there, I'm Davide Bettio! 👋
+---
+title: Hey there, I'm Davide Bettio! 👋
+---
 
 I'm a developer from [Padova, Italy](https://www.openstreetmap.org/#map=12/45.3986/11.8309),
 with a **passion for open source** and the
