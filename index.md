@@ -16,6 +16,6 @@ in Elixir.
 - 🛠 **Into embedded systems** since 2003, and still tinkering with weird,
 [low-level](https://github.com/bettio/FluxOS/) stuff just for fun.
 - ⛰️Outside of coding, I enjoy making sourdough pizza and bread, plus hiking whenever I can.
-- 🐈 Also, I have a soft spot for [pallas cats](manul.md).
+- 🐈 Also, I have a soft spot for [pallas cats](manuls.md).
 
 **Next talk**: Catch me at [ElixirConf EU 2025](https://www.elixirconf.eu/keynotes/the-atomvm-and-new-horizons-for-elixir/)!
