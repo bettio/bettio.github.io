@@ -1,4 +1,6 @@
-# Pallas Cat / Manul
+---
+title: Pallas Cat / Manul
+---
 
 ![Manul](manul/manul0.jpg)
 ![Manul](manul/manul1.jpg)
