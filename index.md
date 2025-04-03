@@ -12,6 +12,7 @@ where we build **[IoT solutions](https://github.com/astarte-platform/astarte)** 
 runs Elixir/Erlang on microcontrollers and on other constrained targets.
 - 🦁 Co-creator of [Astarte](https://github.com/astarte-platform/astarte), an open-source IoT platform
 in Elixir.
+- 🧪 Organizer of [Erlang, Elixir, Gleam and Friends FODEM Devroom](https://beam-fosdem.dev/).
 - 🅺 Former KDE contributor (mostly around the early Plasma era).
 - 🛠 **Into embedded systems** since 2003, and still tinkering with weird,
 [low-level](https://github.com/bettio/FluxOS/) stuff just for fun.
