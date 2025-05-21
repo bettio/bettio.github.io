@@ -19,4 +19,4 @@ in Elixir.
 - ⛰️Outside of coding, I enjoy making sourdough pizza and bread, plus hiking whenever I can.
 - 🐈 Also, I have a soft spot for [pallas cats](manuls.md).
 
-**Next talk**: Catch me at [ElixirConf EU 2025](https://www.elixirconf.eu/keynotes/the-atomvm-and-new-horizons-for-elixir/)!
+<!-- **Next talk**: Catch me at [ElixirConf EU 2025](https://www.elixirconf.eu/keynotes/the-atomvm-and-new-horizons-for-elixir/)! -->
