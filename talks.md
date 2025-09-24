@@ -2,6 +2,10 @@
 title: Talks
 ---
 
+## Elixir Language Milano September 2025: AtomVM: Bringing Elixir to Atomic Scale
+
+[Slides](slides/AtomVM-Bringing-Elixir-to-Atomic-Scale.pdf)
+
 ## FLOSS Weekly 838: AtomVM, and The Full Stack Elixir Developer
 
 This is not a conference talk, but a [FLOSS Weekly episode](https://hackaday.com/2025/06/25/floss-weekly-episode-838-atomvm-and-the-full-stack-elixir-developer/) where [I talk about AtomVM](https://www.youtube.com/watch?v=3H5OU28TrTI):
