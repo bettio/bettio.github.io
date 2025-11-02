@@ -21,4 +21,4 @@ in Elixir.
 
 **🎙 I partecipated in [FLOSS Weekly Episode 838 on AtomVM](https://hackaday.com/2025/06/25/floss-weekly-episode-838-atomvm-and-the-full-stack-elixir-developer/) 🎙**.
 
-**Next talks**: Catch me at [AtomVM: Bringing Elixir to Atomic Scale @ Elixir Language Milano](https://www.meetup.com/elixir-language-milano/events/310943409/) or at [Code BEAM Europe 2025](https://codebeameurope.com/participants/davide-bettio/)!
+**Next talk**: Catch me at [Code BEAM Europe 2025](https://codebeameurope.com/talks/unlocking-the-power-of-beam-on-tiny-microcontrollers-and-beyond/)!
