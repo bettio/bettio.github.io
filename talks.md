@@ -2,6 +2,10 @@
 title: Talks
 ---
 
+## Code BEAM Europe 2025: AtomVM: Unlocking the Power of BEAM on Tiny Microcontrollers and Beyond
+
+[Slides](slides/AtomVM-CodeBEAM-Europe-2025.pdf)
+
 ## Elixir Language Milano September 2025: AtomVM: Bringing Elixir to Atomic Scale
 
 [Slides](slides/AtomVM-Bringing-Elixir-to-Atomic-Scale.pdf)
