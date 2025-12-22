@@ -5,8 +5,10 @@ title: Hey there, I'm Davide Bettio! 👋
 I'm a developer from [Padova, Italy](https://www.openstreetmap.org/#map=12/45.3986/11.8309),
 with a **passion for open source** and the
 **[Elixir](https://elixir-lang.org/)/[Erlang](https://www.erlang.org/)** ecosystem.
-Currently **Head of Technology** at [SECO Mind (formerly Ispirata)](https://github.com/secomind),
-where we build **[IoT solutions](https://github.com/astarte-platform/astarte)** with Elixir.
+Currently focused **full-time on [AtomVM](https://github.com/atomvm/AtomVM)**.
+
+If AtomVM helps you or your company, consider supporting my work via
+**[GitHub Sponsors](https://github.com/sponsors/bettio)**.
 
 - ⚛ **Creator of [AtomVM](https://github.com/atomvm/AtomVM)**: a tiny VM that
 runs Elixir/Erlang on microcontrollers and on other constrained targets.
