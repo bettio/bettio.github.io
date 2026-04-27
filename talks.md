@@ -2,9 +2,33 @@
 title: Talks
 ---
 
+## ElixirConf EU 2026: Atomic-Scale Elixir
+
+At ElixirConf EU 2026, I went deeper into the hardware side of Elixir and AtomVM, showing how to build a real project for inexpensive, resource-constrained microcontrollers with the Elixir tools and workflow available today.
+
+[Event page](https://www.elixirconf.eu/schedule/) · [Slides](slides/Atomic-Scale Elixir.pdf)
+
+## FOSDEM 2026: AtomVM: Elixir, Erlang, and Gleam on Microcontrollers
+
+At FOSDEM 2026, I introduced AtomVM and showed how BEAM languages can be used for real embedded projects on microcontrollers.
+
+[Event page](https://fosdem.org/2026/schedule/event/YP97YR-atomvm_elixir_erlang_and_gleam_on_microcontrollers/) · [Slides](slides/AtomVM-FOSDEM-2026.pdf)
+
+## Nagoya Elixir Meetup January 2026: AtomVM: Where Are We Going?
+
+I joined piyopiyo.ex in Nagoya for a technical exchange about AtomVM and where the project is heading. The video is in English, with slides in Japanese.
+
+[Event page](https://piyopiyoex.connpass.com/event/377298/) · [Video](https://www.youtube.com/watch?v=dt78hY1zHFE) · [Slides](slides/AtomVM-piyopiyoex-Where-Are-We-Going.pdf) · [Slides in Japanese](slides/AtomVM-piyopiyoex-Where-Are-We-Going-日本語.pdf)
+
+{% include responsive-embed url="https://www.youtube.com/embed/dt78hY1zHFE" %}
+
 ## Code BEAM Europe 2025: AtomVM: Unlocking the Power of BEAM on Tiny Microcontrollers and Beyond
 
-[Slides](slides/AtomVM-CodeBEAM-Europe-2025.pdf)
+I gave this talk at Code BEAM Europe 2025, showing how AtomVM brings Erlang, Elixir, and Gleam to small devices and other constrained environments.
+
+[Event page](https://codebeameurope.com/archives/berlin_2025/index.html) · [Video](https://www.youtube.com/watch?v=0nQU0ia8yuA) · [Slides](slides/AtomVM-CodeBEAM-Europe-2025.pdf)
+
+{% include responsive-embed url="https://www.youtube.com/embed/0nQU0ia8yuA" %}
 
 ## Elixir Language Milano September 2025: AtomVM: Bringing Elixir to Atomic Scale
 
