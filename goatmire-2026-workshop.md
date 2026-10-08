@@ -2,8 +2,6 @@
 title: Goatmire 2026 AtomVM Workshop
 ---
 
-# Goatmire 2026 AtomVM Workshop
-
 This page collects the material for the **AtomVM** workshop at [Goatmire 2026](https://goatmire.com/).
 
 During the workshop we write Elixir applications that run directly on the Goatmire badge, an ESP32-S3 board, using [AtomVM](https://github.com/atomvm/AtomVM).
