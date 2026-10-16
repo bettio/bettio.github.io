@@ -1,0 +1,48 @@
+{%- comment -%}
+  Schema.org JSON-LD for the homepage, included from head-custom.html:
+
+    ProfilePage --mainEntity--> Person <--creator-- AtomVM (SoftwareSourceCode)
+
+  Name, URL, description, photo and profile links come from _config.yml, so
+  they stay consistent with the visible page and with jekyll-seo-tag. Every
+  "<" is written as the JSON escape \u003c, so no value can close the
+  <script> element.
+{%- endcomment -%}
+{%- assign home_url = "/" | absolute_url -%}
+{%- assign person_id = home_url | append: "#davide-bettio" -%}
+{%- capture json_ld -%}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfilePage",
+      "@id": {{ home_url | append: "#profile" | jsonify }},
+      "url": {{ home_url | jsonify }},
+      "mainEntity": { "@id": {{ person_id | jsonify }} }
+    },
+    {
+      "@type": "Person",
+      "@id": {{ person_id | jsonify }},
+      "name": {{ site.author.name | jsonify }},
+      "alternateName": "bettio",
+      "url": {{ site.author.url | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "image": {{ site.profile.image | absolute_url | jsonify }},
+      "sameAs": {{ site.profile.links | map: "url" | jsonify }},
+      "knowsAbout": ["AtomVM", "Erlang", "Elixir", "Embedded Systems", "Open Source Software"]
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": {{ home_url | append: "#atomvm" | jsonify }},
+      "name": "AtomVM",
+      "url": "https://atomvm.org/",
+      "codeRepository": "https://github.com/atomvm/AtomVM",
+      "description": "A lightweight virtual machine for running Erlang and Elixir on microcontrollers and resource-constrained systems.",
+      "creator": { "@id": {{ person_id | jsonify }} }
+    }
+  ]
+}
+{%- endcapture -%}
+<script type="application/ld+json">
+{{ json_ld | replace: "<", "\u003c" }}
+</script>

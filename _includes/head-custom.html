@@ -1,0 +1,18 @@
+<!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+{% if page.url == "/" %}
+  {%- comment -%}
+    jekyll-seo-tag only emits og:image for pages with `image` front matter,
+    which So Simple also renders as a large image inside the page. Use the
+    profile photo as the homepage preview image instead.
+  {%- endcomment -%}
+  {% unless page.image %}
+  <meta property="og:image" content="{{ site.profile.image | absolute_url | escape }}">
+  <meta property="og:image:alt" content="{{ site.author.name | escape }}">
+  {% endunless %}
+  {% include person-jsonld.html %}
+{% endif %}
+
+<!-- end custom head snippets -->

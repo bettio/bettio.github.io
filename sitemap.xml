@@ -1,0 +1,27 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- comment -%}
+  Generated with plain Liquid instead of jekyll-sitemap, which would also
+  add a robots.txt. Lists HTML pages and documents of output collections
+  (posts included); a page can opt out with `sitemap: false`. There is no
+  lastmod, changefreq or priority because there is no reliable source for
+  them.
+{%- endcomment -%}
+{%- assign docs = site.html_pages -%}
+{%- for collection in site.collections -%}
+  {%- if collection.output -%}
+    {%- assign docs = docs | concat: collection.docs -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- for doc in docs -%}
+  {%- unless doc.sitemap == false or doc.url == "/404.html" %}
+  <url>
+    <loc>{{ doc.url | replace: "/index.html", "/" | absolute_url | xml_escape }}</loc>
+  </url>
+  {%- endunless -%}
+{%- endfor %}
+</urlset>

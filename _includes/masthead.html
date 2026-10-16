@@ -1,0 +1,25 @@
+{%- comment -%}
+  Override of _includes/masthead.html from So Simple 3.2.0
+  (https://github.com/mmistakes/so-simple-theme/blob/3.2.0/_includes/masthead.html),
+  Copyright (c) 2013-2019 Michael Rose and contributors, MIT License.
+
+  Changes from the theme:
+  - The photo comes from site.profile.image instead of site.logo, which
+    jekyll-seo-tag would publish as the logo of an Organization.
+  - The site title is always a <div> (the theme uses <h1> on the homepage),
+    so the page title is the only <h1>.
+{%- endcomment -%}
+<header class="masthead">
+  <div class="wrap">
+    {% if site.profile.image %}
+      <a href="{{ '/' | relative_url }}" class="site-logo" rel="home" title="{{ site.title }}">
+        <img src="{{ site.profile.image | relative_url }}" class="site-logo-img animated fadeInDown" alt="{{ site.title }}">
+      </a>
+    {% endif %}
+    {% assign page_image = page.image.path | default: page.image %}
+    {% unless page_image %}
+      <div class="site-title animated fadeIn"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
+      <p class="site-description animated fadeIn" itemprop="description">{{ site.description }}</p>
+    {% endunless %}
+  </div>
+</header><!-- /.masthead -->

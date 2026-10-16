@@ -1,5 +1,31 @@
-logo: "images/bettio.jpg"
+title: "Davide Bettio"
+tagline: "Creator of AtomVM"
+description: >-
+  Creator of AtomVM and open-source software engineer.
+url: "https://uninstall.it"
+baseurl: ""
+lang: "en"
+locale: "en-US"
+
+author:
+  name: "Davide Bettio"
+  type: "Person"
+  url: "https://uninstall.it/"
+
+# Photo and verified profiles, used by the masthead, the homepage, the
+# homepage structured data and llms.txt. The photo is deliberately not set
+# as `logo`: jekyll-seo-tag would publish it as the logo of an Organization.
+profile:
+  image: "/images/bettio.jpg"
+  links:
+    - name: "GitHub"
+      url: "https://github.com/bettio"
+      description: "Davide Bettio's official GitHub profile."
+    - name: "Sessionize"
+      url: "https://sessionize.com/bettio/"
+      description: "Speaker profile and conference activities."
 
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 plugins:
 - jekyll-remote-theme
+- jekyll-seo-tag

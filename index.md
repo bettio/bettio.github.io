@@ -1,16 +1,24 @@
 ---
-title: Hey there, I'm Davide Bettio! 👋
+title: "Davide Bettio"
+description: >-
+  Davide Bettio is the creator of AtomVM, a lightweight virtual machine for
+  running Erlang and Elixir on microcontrollers. Open-source software engineer
+  and former KDE contributor.
 ---
 
-I'm a developer from [Padova, Italy](https://www.openstreetmap.org/#map=12/45.3986/11.8309),
-with a **passion for open source** and the
-**[Elixir](https://elixir-lang.org/)/[Erlang](https://www.erlang.org/)** ecosystem.
-Currently focused **full-time on [AtomVM](https://github.com/atomvm/AtomVM)**.
+I'm **Davide Bettio**, the creator of
+[AtomVM](https://github.com/atomvm/AtomVM),
+a lightweight virtual machine for running Erlang and
+Elixir on microcontrollers and other constrained systems.
+
+I'm an open-source software engineer based in
+[Padova, Italy](https://www.openstreetmap.org/#map=12/45.3986/11.8309),
+currently working full-time on AtomVM.
 
 If AtomVM helps you or your company, consider supporting my work via
 **[GitHub Sponsors](https://github.com/sponsors/bettio)**.
 
-- ⚛ **Creator of [AtomVM](https://github.com/atomvm/AtomVM)**: a tiny VM that
+- ⚛ **[AtomVM](https://github.com/atomvm/AtomVM)**: a tiny VM that
 runs Elixir/Erlang on microcontrollers and on other constrained targets.
 - 🦁 Co-creator of [Astarte](https://github.com/astarte-platform/astarte), an open-source IoT platform
 in Elixir.
@@ -56,3 +64,9 @@ I was also a guest on
 in June 2025.
 
 You can find more [talks, slides and recordings]({% link talks.md %}) on this site.
+
+## Find me online
+
+{% for account in site.profile.links -%}
+- [{{ account.name }}]({{ account.url }}){: rel="me"}
+{% endfor %}

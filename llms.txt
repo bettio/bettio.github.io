@@ -1,0 +1,37 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# {{ site.title }}
+
+> Official personal website of Davide Bettio, creator of AtomVM, an open-source
+> virtual machine for running Erlang and Elixir on microcontrollers and
+> resource-constrained devices.
+
+Davide Bettio is an open-source software engineer from Padova, Italy.
+He created AtomVM and currently works full-time on its development.
+He previously contributed to KDE and co-created Astarte, an open-source IoT
+platform. He has been interested in embedded systems since 2003.
+
+He organizes the Erlang, Elixir, Gleam and Friends devroom at FOSDEM and has
+spoken about AtomVM at conferences including Code BEAM Europe, ElixirConf EU,
+FOSDEM and Goatmire.
+
+## Official Website
+
+{% capture talks_path %}{% link talks.md %}{% endcapture -%}
+{% capture workshop_path %}{% link goatmire-2026-workshop.md %}{% endcapture -%}
+- [Davide Bettio]({{ "/" | absolute_url }}): Official personal website and biography.
+- [Talks and Conferences]({{ talks_path | absolute_url }}): Conference presentations, slides, and recordings.
+- [Goatmire 2026 AtomVM Workshop]({{ workshop_path | absolute_url }}): Workshop slides, exercises, and hardware notes.
+
+## AtomVM
+
+- [AtomVM Official Website](https://atomvm.org/): Official website of the AtomVM project.
+- [AtomVM Source Code](https://github.com/atomvm/AtomVM): Official source code repository.
+
+## Professional Profiles
+
+{% for account in site.profile.links -%}
+- [{{ account.name }}]({{ account.url }}): {{ account.description }}
+{% endfor -%}
