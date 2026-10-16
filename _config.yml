@@ -1,7 +1,7 @@
 title: "Davide Bettio"
-tagline: "Creator of AtomVM"
-description: >-
-  Creator of AtomVM and open-source software engineer.
+# Masthead line under the name; also the homepage <title> suffix (unless a
+# `tagline` is set) and the Person description in the structured data.
+description: "Open Source Developer and Creator of AtomVM"
 url: "https://uninstall.it"
 baseurl: ""
 lang: "en"
