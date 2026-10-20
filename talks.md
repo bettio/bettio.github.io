@@ -2,16 +2,13 @@
 title: Talks
 ---
 
-## Upcoming
+## Code BEAM Europe 2026: Updates from the AtomVM Landscape
 
-### Code BEAM Europe 2026: Updates from the AtomVM Landscape
+I gave this talk at Code BEAM Europe 2026 in Haarlem, the Netherlands.
+It covers what's new in AtomVM, the platforms it supports and where the
+project is heading, including applications beyond microcontrollers.
 
-I'll be speaking at Code BEAM Europe 2026 in Haarlem, the Netherlands.
-The conference takes place on October 21 and 22, 2026. My talk covers
-what's new in AtomVM, the platforms it supports and what we're working
-on next, including uses beyond microcontrollers.
-
-[Event page](https://codebeameurope.com/talks/updates-from-the-atomvm-landscape/)
+[Event page](https://codebeameurope.com/talks/updates-from-the-atomvm-landscape/) · [Slides](slides/Updates-from-the-AtomVM-Landscape.pdf)
 
 ## Goatmire 2026: AtomVM: When Constrained Doesn't Mean Boring
 
