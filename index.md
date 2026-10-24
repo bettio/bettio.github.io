@@ -29,15 +29,15 @@ in Elixir.
 - ⛰️ Outside of coding, I enjoy making sourdough pizza and bread, plus hiking whenever I can.
 - 🐈 Also, I have a soft spot for [pallas cats](manuls.md).
 
-## Next talk
+## Code BEAM Europe 2026
 
-I'll be speaking at [Code BEAM Europe 2026](https://codebeameurope.com/),
-which takes place on October 21 and 22, 2026, in Haarlem, the Netherlands.
+I spoke at [Code BEAM Europe 2026](https://codebeameurope.com/),
+which took place on October 21 and 22, 2026, in Haarlem, the Netherlands.
 
 My talk, [Updates from the AtomVM Landscape](https://codebeameurope.com/talks/updates-from-the-atomvm-landscape/),
-covers what's new in AtomVM and what we're working on next. I'll also look at
+covered what's new in AtomVM and what we're working on next. I also looked at
 supported platforms and uses beyond microcontrollers, including the web
-frontend. Come say hi!
+frontend.
 
 ## Goatmire 2026
 
@@ -53,6 +53,11 @@ I wrote about the badge and the Elixir tooling I worked on for the workshop in
 [Goatmire, Badges and the AtomVM Developer Experience](https://medium.com/@Bettio/goatmire-badges-and-the-atomvm-developer-experience-3b7af2a17347).
 
 ## Podcasts
+
+[Giacomo Cavalieri](https://www.giacomocavalieri.me/) and I joined Allen Wyma and Francesco
+Cesarini on BEAM There, Done That to talk about running Gleam on microcontrollers with AtomVM.
+The episode, [Embedded Gleam for Everyone](https://beamtheredonethat.com/episodes/embedded-gleam-for-everyone-d-bettio-g-cavalieri-on-microcontrollers),
+was published in October 2026.
 
 Paul Guyot and I joined Francesco Cesarini on BEAM There, Done That to talk
 about AtomVM. The episode,
